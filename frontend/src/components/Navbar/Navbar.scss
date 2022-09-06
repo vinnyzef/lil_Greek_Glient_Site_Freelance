@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@1400&display=swap');
+
+.app__navbar{
+    font-weight: 1200!important;
+    background-color: #002D62;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-family: var(--font-base);
+
+
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+    //stays on top
+    position:absolute;
+    //appears above content
+    z-index: 2;
+}
+
+.app__navbar-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--gray-color);
+    font-weight: 500;
+    
+   
+
+    cursor: pointer;
+
+    img{
+        max-width: 250px;
+        height: auto;
+        border-radius: 15px;
+        @media screen and (min-width: 2000px){
+            width: 180px;
+            height: 40px;
+        }
+    }
+}
+.nav__hours{
+
+    @media screen and (max-width:900px){
+        display: none;
+    }
+    p{
+        color: var(--gray-color);
+        margin: .5rem;
+    }
+}
+
+.app__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-family: 'Chivo', sans-serif;
+
+    li{
+        margin: 0 1rem;
+        cursor: pointer;
+        flex-direction: column;
+
+        &:hover{
+            div{
+            background: var(--white-color);
+            }
+        }
+        div{
+            width: 5px;
+            height: 5px;
+            background: transparent;
+            border-radius: 50%;
+            margin-bottom: 5px;
+        }
+        a{
+     
+            color: var(--white-color);
+            text-decoration: none;
+            flex-direction: column;
+            text-transform: uppercase;
+            font-weight: 500!important;
+            letter-spacing: 1px;
+
+            transition: all 0.3s ease-in-out;
+
+            &:hover{
+                color: var(--white-color);
+                border-radius: 10px;
+            }
+        }
+    }
+    @media screen and (max-width:900px){
+        display: none;
+    }
+}
+.app__navbar-menu{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position:relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--black-color);
+
+    svg{
+        width: 70%;
+        height: 70%;
+        color: var(--white-color);
+    }
+    div{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 5;
+
+        padding: 1rem;
+        width: 80%;
+        height: 100vh;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+
+        background: whitesmoke;
+        background-color: #002D62;
+        background-size: cover;
+        background-repeat: repeat;
+
+        box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
+
+        svg{
+            width: 35px;
+            height: 35px;
+            color: var(--white-color);
+            margin: 0.5rem 1rem;
+        }
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+
+            li{
+                margin: 1rem;
+
+                a{
+                    
+                    color: var(--white-color);
+                    text-decoration: none;
+                    font-size: 1rem;
+                    text-transform: uppercase;
+                    font-weight: 500;
+
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover{
+                       color: var(--secondary-color)
+                    }
+                }
+            }
+
+        }
+        @media screen and (min-width:900px){
+            display: none;
+            
+        }
+    }
+    @media screen and (min-width:900px){
+        display: none;
+        
+    }
+}
+.nav__hours{
+    color: white;
+}

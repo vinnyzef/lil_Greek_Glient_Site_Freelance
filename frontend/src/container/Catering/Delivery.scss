@@ -1,0 +1,114 @@
+#cater{
+    position: relative;
+    background-image: url('../../assets/marbleflip.jpg');
+    
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    // background-attachment: fixed;
+    font-family: var(--font-base);
+    .info__cater2{
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        color: var(--black-color);
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    svg{
+        color: var(--secondary-color);
+    }
+    span{
+        color: var(--lightblue-color);
+    }
+    p.text-white{
+        color: white;
+    }
+    h1.heading-primary{
+        display: inline-block;
+        span{
+            color: var(--white-color);
+            background:transparentize($color: black, $amount: .55);
+        }
+        
+
+    }
+    .heading-secondary{
+        h1{
+            color: #002D62;
+        }
+    
+   
+
+
+        background:transparentize($color: #002D62, $amount: .95);
+        
+    
+    }
+}
+.catering__form1{
+margin-top: 5rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+h2{
+
+    
+    text-align: center;
+}
+h3{
+    text-align: center;
+    margin: 1rem;
+    text-transform: lowercase;
+}
+.info__cater{
+    text-align: center;
+    margin-bottom: 10rem;
+    color: var(--black-color);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+}
+.catering__form2{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/white.jpg');
+    border-radius: 5px;
+
+    
+    div{
+        
+        margin: 0.75rem 0;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: var(--primary-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    input,textarea{
+        margin-top: 1rem;
+        width: 300px;
+        padding: 0.95rem;
+        border: none;
+        border-radius: 7px;
+        background-color: var(--primary-color);
+        font-family: var(--font-base);
+        color: var(--secondary-color);
+        outline: none ;
+    }
+    textarea{
+        height: 170px;
+
+    }
+    }
+    .submit__message{
+        text-align: center;
+        h3{
+        color: var(--black-color) !important;
+        }
+    }

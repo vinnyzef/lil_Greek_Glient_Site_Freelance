@@ -1,0 +1,45 @@
+#menu{
+    position: relative;
+    background-image: url('../../assets/marbleflip.jpg');
+    
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    // background-attachment: fixed;
+    font-family: var(--font-base);
+    font-weight: 900!important;
+
+    span{
+        color: var(--lightblue-color);
+    }
+    p.text-white{
+        color: var(--secondary-color);
+    }
+    h1.heading-primary{
+        display: inline-block;
+        color: var(--lightblue-color);
+        span{
+            color: var(--white-color);
+            background:transparentize($color: black, $amount: .55);
+        }
+        
+
+    }
+    .heading-secondary{
+        margin-top: 3rem;
+        h1{
+            color: #002D62;
+        }
+    
+   
+
+
+        background:transparentize($color: #002D62, $amount: .95);
+        
+    
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   
+  }

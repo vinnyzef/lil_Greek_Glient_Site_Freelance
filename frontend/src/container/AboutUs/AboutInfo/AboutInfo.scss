@@ -1,0 +1,21 @@
+.about-info-content p {
+    padding: 20px 0;
+}
+.section{
+    font-family: var(--font-base);
+}
+.about-info-content{
+
+    text-align: center;
+    p{
+        margin: 1rem;
+        text-align: left;
+        font-weight: 900;
+    }
+    h2{
+        padding-top: 1rem;
+    }
+    background:transparentize($color: rgb(42,42,42), $amount: .95);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
