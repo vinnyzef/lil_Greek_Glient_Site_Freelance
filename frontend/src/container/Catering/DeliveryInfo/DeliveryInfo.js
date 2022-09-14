@@ -1,7 +1,7 @@
 import React from 'react'
 import {BsFillStarFill} from 'react-icons/bs'
 
-import './DeliveryInfo.css'
+import './DeliveryInfo.scss'
 
 const DeliveryInfo = () => {
   return (
@@ -17,7 +17,7 @@ const DeliveryInfo = () => {
                     </div>
 
                     <p>
-We want to be your spot of choice for fine greek cuisine in the near future! Sign up for our newsletter and mark your calendars for our grand opening </p>
+We want to be your spot of choice for fine greek cuisine in the near future! Sign up for our newsletter and mark your calendars for our grand opening!</p>
                 </div>
 
                 <div>

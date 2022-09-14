@@ -1,0 +1,27 @@
+.add-to-cart h1 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.addtocart-btn {
+    text-align: center;
+    padding: 50px 0;
+}
+.button_5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    h3{
+       text-align: center;
+        background:transparentize($color: rgb(42,42,42), $amount: .95);
+        text-transform: lowercase;
+    }
+    img{
+        max-width: 200px;
+        height: auto;
+        filter: grayscale(1);
+        border-radius: 15px;
+    }
+}

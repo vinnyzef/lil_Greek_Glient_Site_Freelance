@@ -45,6 +45,11 @@ const menuDataRight = [
     price: "5.95",
   },
   {
+    title: "Rizogalo",
+    description: `Homemade rice pudding`,
+    price: "5.55",
+  },
+  {
     title: "Locally made Baklava",
     description: ``,
     price: "5.95",

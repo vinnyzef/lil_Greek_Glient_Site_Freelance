@@ -58,21 +58,25 @@ const Catering = () => {
 
     <div className='catering__form1'>
     <h3 className="info__cater">*All trays feed up to 10 people!*</h3>
+    
     <h2>
-      Need catering for your upcoming event?<span> Message us below</span>!
+      Need catering for your upcoming event?<span>  Message us below</span>, or follow our EZ Cater link!
     </h2>
-    <h3>*Message or email below for discounted rate*</h3>
     <div
     className='app__footer-cards'>
       <div
       className='app__footer-card'>
         <img src={images.email} alt="email"/>
-        <a href='mailto:vincentzefran@gmail.com' >lilgreekkitchen@gmail.com</a>
+        <a href='mailto:lilgreekkitchen@gmail.com'>lilgreekkitchen@gmail.com</a>
       </div>
+      <div className='app__footer-card'>   
+       <img src={images.delivery} alt="email"/>
+           <a className="ezcater__link">ez cater online catering </a>
+         </div>
       <div
       className='app__footer-card'>
         <img src={images.phone} alt="mobile"/>
-        <a href='tel: +1 (773) 991-0722' >+1 (773) 000-0000</a>
+        <a href='tel: +1(331)-226-3577'>+1(331)-226-3577</a>
       </div>
     </div>
 

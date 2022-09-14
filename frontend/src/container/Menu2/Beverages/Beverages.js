@@ -42,7 +42,7 @@ const Beverages = () => {
     <div className="section">
       <div className="container beverages">
         <h1 className="heading-secondary">
-          Non-Alcoholic <span> Beverages</span>
+        Canned<span> Beverages</span>
         </h1>
 
         <div className="grid-container">

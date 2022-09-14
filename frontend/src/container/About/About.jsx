@@ -10,17 +10,20 @@ const About = () => {
     <div id= "about">
 
     <div className='about__container'>
+      <div className='about__body'>
     <div className='about__header'>
-    <h1>THE LIL' GREEK EXPERIENCE</h1>
+    <h1>Need Catering? It's Just a Couple Clicks Away!</h1>
     </div>
     <div className='about__text'>
-    <p>
-Lil' Greek Kitchen is a locally founded restaurant with a passion and love for quality Greek cuisine. Click here to learn more about us and how we strive to give each customer a positive experience every time they order.</p>
+    <h3>
+Catering is our thing. You need catering for your next special event? We've got you covered! We have mulitple ways to
+go about catering, as well as a party plan that will be sure have your mouth watering! Click below to find out more.
+</h3>
     </div>
-    <Link to= "/our story">
-    <button>LEARN MORE</button>
+    <Link to= "/catering" onClick={()=>window.scroll(0,0)}>
+    <button>I WANT CATERING</button>
     </Link>
-
+    </div>
     <img src={images.hummus} alt='skepasti'/>
     </div>
 

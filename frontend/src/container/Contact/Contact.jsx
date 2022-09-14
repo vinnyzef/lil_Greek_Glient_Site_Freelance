@@ -41,12 +41,12 @@ const Contact = () => {
       <div
       className='app__footer-card'>
         <img src={images.email} alt="email"/>
-        <a href='mailto:vincentzefran@gmail.com' >lilgreekkitchen@gmail.com</a>
+        <a href='mailto:lilgreekkitchen@gmail.com' >lilgreekkitchen@gmail.com</a>
       </div>
       <div
       className='app__footer-card'>
         <img src={images.phone} alt="mobile"/>
-        <a href='tel: +1 (773) 991-0722' >+1 (773) 000-0000</a>
+        <a href='tel: +1 (331)-226-3577'>+1 (331)-226-3577</a>
       </div>
     </div>
 

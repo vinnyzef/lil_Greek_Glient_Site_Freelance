@@ -1,6 +1,6 @@
 import React from "react";
 import ListItem2 from "../../../components/ListItem2/ListItem2";
-import "./PartyPack.css";
+import "./PartyPack.scss";
 import images from "../../../constants/images";
 
 const menuDataLeft = [
@@ -15,7 +15,7 @@ const menuDataLeft = [
         img:null,
         },
         {
-            title: "Two choices of protein (Gyro, Grilled chicken, Falafel,) Steak for an extra +$15.55 to your order price",
+            title: "Two choices of protein (Gyro, Grilled chicken, Falafel,) or Steak for an extra +$1.95 per person",
             description: "",
             img:null,
             },
@@ -36,12 +36,18 @@ const menuDataRight = [
             description: "",
             img:null,
             },
-];
+            {
+              title: "Pitas Included",
+              description: "",
+              img:null,
+              },
+            ]
 
 const PartyPack = () => {
   return (
     <div className="container add-to-cart">
-      <h1 className="heading-secondary">
+
+         <h1 className="heading-secondary">
         <span>Not So Lil' </span> Greek Party Pack
       </h1>
 

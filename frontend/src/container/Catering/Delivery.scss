@@ -1,6 +1,6 @@
 #cater{
     position: relative;
-    background-image: url('../../assets/marbleflip.jpg');
+    background-image: url('../../assets/white.jpg');
     
     background-size: cover;
     background-repeat: repeat;
@@ -53,8 +53,8 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 h2{
-
-    
+    background:transparentize($color: rgb(42,42,42), $amount: .95);
+    text-transform: uppercase;
     text-align: center;
 }
 h3{
@@ -72,7 +72,7 @@ h3{
 
 }
 .catering__form2{
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,5 +110,13 @@ h3{
         text-align: center;
         h3{
         color: var(--black-color) !important;
+        }
+    }
+    .ezcater__link{
+        cursor: pointer;
+        &:hover{
+            img{
+                filter: grayscale(0);
+            }
         }
     }

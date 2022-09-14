@@ -10,7 +10,7 @@ import ListItem from "../../../components/ListItem/ListItem";
 const menuDataRight = [
   {
     title: "Greek Gyro",
-    description: "Fries, tzatziki, tomato, onion, and our fresh choice of protein in a 6-inch pita",
+    description: "Fries, tzatziki, tomato, onion, and our fresh choice of protein in a pita",
     price: 10.00,
   },
   {
@@ -26,11 +26,10 @@ const menuDataRight = [
     price: 15.55,
   },
   {
-    title: "Skepasti",
-    description: `Locally bought Greek pulled pork, slowly baked after placed on our warm pita’s and drizzled
-    with tzatziki, lemon squeeze, topped with fresh parsley, onion, feta and fries`,
-    price: "13.55",
-    img: images.skepasti,
+    title: " Gyro Plate",
+    description: `Plate with our homemade Greek rice or fresh greens, choice of protein, Greek salad, feta,
+    fries, olives, Warm pitas, and two sauces`,
+    price: 15.55,
   },
   {
     title: "Toppings",

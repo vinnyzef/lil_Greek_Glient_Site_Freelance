@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.scss'
 import {HiMenuAlt4, HiX} from 'react-icons/hi';
 import {motion} from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 import images from '../../constants/images';
 
@@ -19,8 +20,7 @@ const Navbar = () => {
         <ul className='app__navbar-links'>
             {['order online','menu','catering','about','contact'].map((item)=><li className='app__flex p-text' key={`link-${item}`}>
                 <div/>
-                <a href={`${item}`}>{item}</a>
-                {/* } */}
+                <Link to = {`/${item}`}onClick={()=> settoggle(false)}>{item} </Link>
  
             </li>
             )}
@@ -31,6 +31,8 @@ const Navbar = () => {
               <p>MONDAY - THURSDAY: 11 am - 9 PM</p>
               <p>FRIDAY - SATURDAY: 12 PM - 12 AM</p>
               <p>SUNDAY: 12 PM - 8 PM</p>
+              <p>PHONE:  +1 (331)-226-3577</p> 
+              {/* <p>LOCALLY OWNED</p>  */}
             </div>
             
         <div className='app__navbar-menu'>
@@ -45,7 +47,7 @@ const Navbar = () => {
           <HiX onClick={()=> settoggle(false)}/>
           <ul>
           {['order online','menu','catering','about','contact'].map((item)=> (<li key={item}>
-            <a href={`${item}`}onClick={()=> settoggle(false)}>{item}</a>
+            <Link to = {`/${item}`}onClick={()=> settoggle(false)}>{item} </Link>
             </li>
             ))}
            </ul>

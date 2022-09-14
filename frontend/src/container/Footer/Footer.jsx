@@ -51,7 +51,7 @@ const Footer = () => {
         850 W. Superior Chicago, Il 60642
         </p>
         <p>
-        <a href='https://www.westlinefoodjunction.com/'>
+        <a classname= "westline__link"href='https://www.westlinefoodjunction.com/'>
         Located in the Westline Food Junction
         </a>
         </p>
@@ -65,7 +65,7 @@ const Footer = () => {
         EMAIL:  LILGREEKKITCHEN@GMAIL.COM
         </p>
         <p>
-        PHONE: 1.000.000.000
+        PHONE:  +1(331)-226-3577
         </p>
         <p>
         INSTAGRAM: @LILGREEKKITCHEN
@@ -80,10 +80,10 @@ const Footer = () => {
             </a>
             <p> LOCALLY OWNED </p>
             <div className='footer__icons'> 
-            <a href='https://www.instagram.com/little_greek_kitchen/'> <BsInstagram/></a>    
+            <a href="https://instagram.com/lilgreekkitchen?igshid=YmMyMTA2M2Y="> <BsInstagram/></a>    
             <a><FaTiktok/></a>
             <a><BsSnapchat/></a>
-            <a><FaFacebookF/></a>
+            <a href='https://www.facebook.com/lilgreekkitchen'><FaFacebookF/></a>
             </div>
 
 

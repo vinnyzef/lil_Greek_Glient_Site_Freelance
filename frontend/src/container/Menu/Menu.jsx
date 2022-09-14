@@ -8,11 +8,9 @@ import { Link } from 'react-router-dom'
 
 const Menu = () => {
   return (
-    <motion.div id='menu'       
-    whileInView={{x : [100, 0],y: [0,0], opacity: [0,1]}}
-    transition={{duration: 0.5}}>
+    <div id='menu'>
         <div
-      className="menu__text"
+      className="menu__text2"
         >
         <div className='meu__head'>
      <img src={images.falafel} alt="falafel"/>
@@ -20,15 +18,15 @@ const Menu = () => {
 
     <div className='menu__body'>
     <h1> OUR MENU</h1>
-    <h2>Get a good look at whats to come on our menu so you're ready to order <span style={{color: '#002D62'}}> right away! </span> </h2> 
-    <Link to= "/menu">
+    <h2>Get a good look at whats to come on our menu so you're ready to order  right away! </h2> 
+    <Link to= "/menu"onClick={()=>window.scroll(0,0)}>
     <button className='menu__button'> SEE OUR MENU </button>
     </Link>
 
     </div>
 
     </div>
-    </motion.div>
+    </div>
   )
 }
 

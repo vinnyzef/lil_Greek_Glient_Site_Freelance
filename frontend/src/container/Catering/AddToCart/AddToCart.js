@@ -67,6 +67,12 @@ const menuDataLeft = [
     img:null,
   },
   {
+  title: "Tray of Spanakopita",
+  description: "",
+  price: 42.55,
+  img:null,
+},
+  {
     title: "Tray of Rizogalo",
     description: "",
     price: 25.95,

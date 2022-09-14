@@ -7,12 +7,12 @@ const OnlineOrder = () => {
 
     <div id="portfolio">
     <div className="background">
-    <img src={images.skepasti} alt="" />
+    <img src={images.bowl} alt="" />
   </div>
   <div className="content">
   <h1>ORDER <span>DIRECTLY</span> THROUGH US</h1>
     <h2>
-    Click the link below to be sent to our ordering page. No third parties involved, straight to the source.
+    Click the link below to be sent to our online ordering page.
     </h2>
     <button>COMING SOON</button>
   </div>
