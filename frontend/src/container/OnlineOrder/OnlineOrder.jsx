@@ -14,7 +14,7 @@ const OnlineOrder = () => {
     <h2>
     Click the link below to be sent to our online ordering page.
     </h2>
-    <button>COMING SOON</button>
+   <a href='https://www.lilgreekonline.com/s/order'><button>ORDER NOW</button></a> 
   </div>
   </div>
   )

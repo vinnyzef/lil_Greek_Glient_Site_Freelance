@@ -6,9 +6,11 @@ import images from '../../constants/images'
 import { Link } from 'react-router-dom'
 
 
+
 const Menu = () => {
   return (
     <div id='menu'>
+ 
         <div
       className="menu__text2"
         >

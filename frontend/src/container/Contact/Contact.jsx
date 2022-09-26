@@ -1,6 +1,7 @@
 import {React, useState, useEffect} from 'react'
 import images from '../../constants/images'
 import { client } from '../../client'
+import { Helmet } from 'react-helmet-async'
 
 import './Contact.scss'
 import SecondaryWrap from '../../Wrapper/SecondaryWrap'
@@ -32,6 +33,11 @@ const Contact = () => {
   }
   return (
     <>
+       <Helmet>
+       <title>Contact</title>
+       <meta name='desciption' content="Contact us here"
+      link rel='canonical' href='/contact'/>
+      </Helmet>
     <div className='top__footer'>
     <h2>
       Have a question?<span> Let's get in touch</span>!

@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className='app__navbar-logo'>
 
         <a href='/'>
-            {<img src={images.lilgreeklogo} alt='LilGreekKicthenImg'/>}
+            {<img src={images.lilgreeklogo} alt='lilgreekimg'/>}
             </a>
         </div>
         <ul className='app__navbar-links'>
@@ -28,11 +28,11 @@ const Navbar = () => {
 
         </ul>
         <div className='nav__hours'>
+              <h3>Lil' Greek Kitchen</h3>
               <p>MONDAY - THURSDAY: 11 am - 9 PM</p>
               <p>FRIDAY - SATURDAY: 12 PM - 12 AM</p>
               <p>SUNDAY: 12 PM - 8 PM</p>
-              <p>PHONE:  +1 (331)-226-3577</p> 
-              {/* <p>LOCALLY OWNED</p>  */}
+         
             </div>
             
         <div className='app__navbar-menu'>

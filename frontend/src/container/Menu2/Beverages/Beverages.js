@@ -5,7 +5,7 @@ import images from "../../../constants/images";
 
 const menuDataLeft = [
   {
-    title: "Pesi",
+    title: "Pepsi",
     price: 2.55,
   },
   {

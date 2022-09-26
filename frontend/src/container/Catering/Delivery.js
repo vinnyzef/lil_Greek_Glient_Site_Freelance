@@ -9,6 +9,7 @@ import { client } from "../../client";
 import { BsAsterisk } from "react-icons/bs";
 import SecondaryWrap from "../../Wrapper/SecondaryWrap";
 import PartyPack from "./PartyPack/PartyPack";
+import { Helmet } from "react-helmet-async";
 
 const Catering = () => {
   const [formData, setFormData] = useState({first: '',last: '', email:'',message:'',subject:'',phone:'',date:'', time:''})
@@ -45,6 +46,11 @@ const Catering = () => {
   }
   return (
     <div id="cater">
+     <Helmet>
+       <title>Catering</title>
+       <meta name='desciption' content="Take a look at our catering menu and ways to order!"
+      link rel='canonical' href='/catering'/>
+      </Helmet>
       <HeroImage
         bgImage={images.Spanakopita}
         heading={["", <span>Catering</span>]}
@@ -72,6 +78,10 @@ const Catering = () => {
       <div className='app__footer-card'>   
        <img src={images.delivery} alt="email"/>
            <a className="ezcater__link">ez cater online catering </a>
+         </div>
+         <div className='app__footer-card'>   
+       <img src={images.delivery} alt="email"/>
+           <a className="ezcater__link" href="https://www.lilgreekonline.com/s/order">lilgreekonline.com catering</a>
          </div>
       <div
       className='app__footer-card'>

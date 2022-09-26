@@ -17,7 +17,7 @@ const Order = () => {
     <h2>Hold on just a little longer! Online ordering will be available<span> soon </span>.</h2> 
     {/* add next week */}
     {/* onClick={()=>window.scroll(0,0)} */}
-    <button className='menu__button'  > COMING SOON </button>
+    <a href='https://www.lilgreekonline.com/s/order'>  <button className='menu__button'  > ORDER NOW </button></a>
     </div>
     <img src={images.Spanakopita} alt="falafel"/>
     </div>

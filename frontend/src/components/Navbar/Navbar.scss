@@ -46,9 +46,17 @@
     @media screen and (max-width:900px){
         display: none;
     }
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h3{
+        color: var(--white-color);
+        opacity: 50%;
+        margin: .2rem;
+    }
     p{
         color: var(--gray-color);
-        margin: .5rem;
+        margin: .2rem;
     }
 }
 
