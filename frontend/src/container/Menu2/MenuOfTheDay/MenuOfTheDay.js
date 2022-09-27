@@ -13,7 +13,7 @@ const menuData = [
     title: "Gyro Bowl",
     description: `B.Y.0 Bowl with our homemade Greek lemon rice or fresh greens, choice of protein, Greek salad, feta,
     fries, Kalamata olives, Warm pitas, and two sauces`,
-    price: 13.55,
+    price: 15.55,
   },
 ];
 
