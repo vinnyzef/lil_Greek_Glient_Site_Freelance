@@ -29,9 +29,9 @@ const Navbar = () => {
         </ul>
         <div className='nav__hours'>
               <h3>Lil Greek Kitchen</h3>
-              <p>MONDAY - THURSDAY: 11 am - 9 PM</p>
-              <p>FRIDAY - SATURDAY: 12 PM - 12 AM</p>
-              <p>SUNDAY: 12 PM - 8 PM</p>
+              <p>Monday - Thursday: 11 am - 9 pm</p>
+              <p>Friday - Saturday: 11 am - 10 pm</p>
+              <p>Sunday: Closed</p>
          
             </div>
             

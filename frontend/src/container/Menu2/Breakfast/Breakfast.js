@@ -15,6 +15,11 @@ const menuDataLeft = [
     description: `Oregano, splash of Greek dressing, feta, Garlic salt, and squeeze of lemon`,
     price: "5.95",
   },
+  // {
+  //   title: "Falafel Bites",
+  //   description: `with `,
+  //   price: "5.95",
+  // },
   {
     title: "Hot Sides",
     description: `Green beans/Greek Potato’s`,

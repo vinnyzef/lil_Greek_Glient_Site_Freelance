@@ -37,18 +37,18 @@ const Footer = () => {
         <div className='footer__info'>
         <div className='footer__hours'>
         <h3>
-        PICK UP & DELIVERY HOURS
+        Pickup & Delivery Hours
         </h3>
         <p>
-        MONDAY - THURSDAY: 11 am - 9 PM
+        Monday - Thursday: 11 am - 9 pm
         <p>
-        FRIDAY - SATURDAY: 12 PM - 12 AM
+        Friday - Saturday: 11 am - 10 pm
         </p>
         <p>
-        SUNDAY: 12 PM - 8 PM
+        Sunday: Closed
         </p>
         <p>
-        850 W. Superior Chicago, Il 60642
+        850 W. Superior Chicago, IL 60642
         </p>
         <p>
         <a classname= "westline__link"href='https://www.westlinefoodjunction.com/'>
@@ -59,16 +59,16 @@ const Footer = () => {
         </div>
         <div className='footer__contact'>
         <h3>
-       CONTACT US
+       Contact Us
         </h3>
         <p>
-        EMAIL:  LILGREEKKITCHEN@GMAIL.COM
+        Email:  lilgreekkitchen@gmail.com
         </p>
         <p>
-        PHONE:  +1(331)-226-3577
+        Phone:  +1(331)-226-3577
         </p>
         <p>
-        INSTAGRAM: @LILGREEKKITCHEN
+        Instagram: @lilgreekkitchen
         </p>
         </div>
         </div>
@@ -76,9 +76,9 @@ const Footer = () => {
 
         <div className='footer__logo'>
         <a href='/'>
-            {<img src={images.lilgreeklogo} alt='LilGreekKicthenImg'/>}
+            {<img src={images.lilgreeklogo} alt='lil greek kitchen'/>}
             </a>
-            <p> LOCALLY OWNED </p>
+            <p> Locally Owned </p>
             <div className='footer__icons'> 
             <a href="https://instagram.com/lilgreekkitchen?igshid=YmMyMTA2M2Y="> <BsInstagram/></a>    
             <a><FaTiktok/></a>

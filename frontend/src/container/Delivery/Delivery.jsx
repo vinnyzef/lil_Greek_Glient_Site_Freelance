@@ -11,7 +11,7 @@ const Delivery = () => {
       <div className='delivery__header'>
     <h1>THIRD PARTY ORDERING</h1>
 
-    <p>We will soon be available on Doordash , Ubereats , Grubhub and EZ Cater for pick-up and delivery.
+    <p>We will soon be available on Doordash and EZ Cater for pick-up and delivery.
  
     </p>
     </div>
@@ -22,11 +22,11 @@ const Delivery = () => {
     </div>
     <div className='button_2'>
     <img src={images.ubereats} alt="ubereatsimg"/>
-    <button>COMING SOON</button>
+    <button><a href='https://www.ubereats.com/store/lil-greek-kitchen-850-w-superior-st/BeG99f2HVsaqFBld_CZGqw'>ORDER NOW</a></button>
     </div>  
     <div className='button_3'>
     <img src={images.grubhub} alt="grubhubimg"/>
-   <button>COMING SOON</button>
+    <button><a href='https://www.grubhub.com/restaurant/lil-greek-kitchen-850-w-superior-st-chicago/4523248'>ORDER NOW</a></button>
     </div>
     <div className='button_4'>
     <img src={images.ez} alt="ezcaterimg"/>

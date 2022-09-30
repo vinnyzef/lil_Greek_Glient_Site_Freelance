@@ -18,39 +18,43 @@ const App = () => {
 
     <div id='root'>   
           <Router>
-          <Route basename="/">
-            <Navbar />
-          <Switch>
+         <Switch>
           <Route exact path="/">
+          <Navbar />
             <Header/>
             <Order/>
             <Menu/>
             <About/>
           </Route>
           <Route path="/order online">
+          <Navbar />
             <OnlineOrder />
             <Delivery/>
           </Route>
 
           <Route path="/menu">
+          <Navbar />
             <Menu2/>
           </Route>
           <Route path="/catering">
+          <Navbar />
             <Catering />
           </Route>
           <Route  path="/about">
+          <Navbar />
             <AboutUs />
           </Route>
           <Route  path="/contact">
+          <Navbar />
             <Contact />
           </Route>
 
           <Route path="*">
+          <Navbar />
             <NotFound/>
           </Route>
      </Switch>
        <Footer/>
-         </Route>
             </Router>
      </div>
 

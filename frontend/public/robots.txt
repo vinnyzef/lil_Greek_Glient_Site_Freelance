@@ -1,4 +1,8 @@
-# https://www.robotstxt.org/robotstxt.html
+
 User-agent: *
-Disallow: 
+Allow: /menu
+Allow: /about
+Allow: /contact
+Allow: /online order
 Sitemap: https://www.lilgreekkitchen.com/sitemap.xml
+Sitemap: https://www.lilgreekkitchen.com/sitemap.txt

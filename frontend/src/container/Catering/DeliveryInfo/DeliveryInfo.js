@@ -17,7 +17,7 @@ const DeliveryInfo = () => {
                     </div>
 
                     <p>
-We want to be your spot of choice for fine greek cuisine in the near future! Sign up for our newsletter and mark your calendars for our grand opening!</p>
+We want to be your spot of choice for fine greek cuisine in Chicago! Scroll down to check out our pricing and options below!</p>
                 </div>
 
                 <div>

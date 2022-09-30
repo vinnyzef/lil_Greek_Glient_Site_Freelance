@@ -14,7 +14,7 @@ const Order = () => {
 
     <div className='menu__body'>
     <h1> ONLINE ORDERING</h1>
-    <h2>Hold on just a little longer! Online ordering will be available<span> soon </span>.</h2> 
+    <h2>The wait is no more! Online ordering is now <span> available </span>.</h2> 
     {/* add next week */}
     {/* onClick={()=>window.scroll(0,0)} */}
     <a href='https://www.lilgreekonline.com/s/order'>  <button className='menu__button'  > ORDER NOW </button></a>
