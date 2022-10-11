@@ -8,7 +8,7 @@ const menuDataLeft = [
   {
     title: "Fries",
     description: `with Greek sea salt`,
-    price: "3.55",
+    price: "5.55",
   },
   {
     title: "Greek Fries",
@@ -22,8 +22,8 @@ const menuDataLeft = [
   // },
   {
     title: "Hot Sides",
-    description: `Green beans/Greek Potato’s`,
-    price: "5.95",
+    description: `Green beans, Greek Potato’s, Greek Lemon Rice, or Freshly Baked Carrots`,
+    price: "3.95/5.95",
   },
   {
     title: "Greek Salad",
@@ -57,7 +57,7 @@ const menuDataRight = [
   {
     title: "Locally made Baklava",
     description: ``,
-    price: "5.95",
+    price: "5.55",
   },
 
 

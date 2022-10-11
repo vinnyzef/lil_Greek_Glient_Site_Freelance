@@ -7,13 +7,13 @@ const menuData = [
   {
     title: "Greek Gyro",
     description: "fries, tzatziki, tomato, onion, and our fresh choice of protein in a 6-inch pita",
-    price: 10.00,
+    price: 10.55,
   },
   {
     title: "Gyro Bowl",
     description: `B.Y.0 Bowl with our homemade Greek lemon rice or fresh greens, choice of protein, Greek salad, feta,
     fries, Kalamata olives, Warm pitas, and two sauces`,
-    price: 15.55,
+    price: 13.55,
   },
 ];
 

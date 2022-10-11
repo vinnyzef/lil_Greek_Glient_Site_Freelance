@@ -6,11 +6,11 @@ import images from "../../../constants/images";
 const menuDataLeft = [
   {
     title: "Pepsi",
-    price: 2.55,
+    price: 2.25,
   },
   {
     title: "Diet Pepsi",
-    price: 2.55,
+    price: 2.25,
   },
 
 
@@ -19,11 +19,11 @@ const menuDataLeft = [
 const menuDataMiddle = [
   {
     title: "Mountain Dew",
-    price: 2.55,
+    price: 2.25,
   },
    {
-    title: "Sierra Mist",
-    price: 2.55,
+    title: "Sprite",
+    price: 2.25,
   },
 ];
 
@@ -31,7 +31,7 @@ const menuDataRight = [
 
   {
     title: "Bottled Water",
-    price: 1.95,
+    price: 2.00,
   },
  
 

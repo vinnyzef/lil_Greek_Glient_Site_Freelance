@@ -11,7 +11,7 @@ const Delivery = () => {
       <div className='delivery__header'>
     <h1>THIRD PARTY ORDERING</h1>
 
-    <p>We will soon be available on Doordash and EZ Cater for pick-up and delivery.
+    <p>We will soon be available on Doordash as well for pick-up and delivery.
  
     </p>
     </div>
@@ -30,7 +30,8 @@ const Delivery = () => {
     </div>
     <div className='button_4'>
     <img src={images.ez} alt="ezcaterimg"/>
-   <button>COMING SOON</button>
+    <a href='https://www.ezcater.com/catering/pvt/lil-greek-kitchen-3'>
+   <button>ORDER NOW</button></a>
     </div>
 
     </div>

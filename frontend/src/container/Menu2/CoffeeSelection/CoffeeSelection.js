@@ -11,19 +11,24 @@ const menuDataRight = [
   {
     title: "Greek Gyro",
     description: "Fries, tzatziki, tomato, onion, and our fresh choice of protein in a pita",
-    price: 10.00,
+    price: 10.55,
+  },
+  {
+    title: "The Gyro Burger",
+    description: "Our Gyro Burger comes with Our seasoned 8oz 100% beef patty, feta, Spring Mix, Onion, Tomato, Fresh Cut Gyro, homemade fries, and homemade Tzatziki sauce to top it off",
+    price: 14.55,
   },
   {
     title: "Greek Pita",
     description: `B.Y.O Pita, Choice of one homemade sauce and three cold toppings (Protein options- gr.
       Chicken, Gyro, Falafel`,
-    price: 10.00,
+    price: 9.55,
   },
   {
     title: "Gyro Bowl",
     description: `B.Y.0 Bowl with our homemade Greek lemon rice or fresh greens, choice of protein, Greek salad, feta,
     fries, Kalamata olives, Warm pitas, and two sauces`,
-    price: 15.55,
+    price: 13.55,
   },
   {
     title: " Gyro Plate",

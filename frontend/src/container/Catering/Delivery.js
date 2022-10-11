@@ -77,7 +77,7 @@ const Catering = () => {
       </div>
       <div className='app__footer-card'>   
        <img src={images.delivery} alt="email"/>
-           <a className="ezcater__link">ez cater online catering </a>
+           <a className="ezcater__link" href="https://www.ezcater.com/catering/pvt/lil-greek-kitchen-3">ez cater online catering </a>
          </div>
          <div className='app__footer-card'>   
        <img src={images.delivery} alt="email"/>
