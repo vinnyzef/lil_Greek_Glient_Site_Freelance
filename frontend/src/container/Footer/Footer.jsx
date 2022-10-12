@@ -65,7 +65,7 @@ const Footer = () => {
         Email:  lilgreekkitchen@gmail.com
         </p>
         <p>
-        Phone:  +1(331)-226-3577
+        Phone:  +1(331)-701-1681
         </p>
         <p>
         Instagram: @lilgreekkitchen

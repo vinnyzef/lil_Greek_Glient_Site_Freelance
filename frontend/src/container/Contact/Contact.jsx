@@ -52,7 +52,7 @@ const Contact = () => {
       <div
       className='app__footer-card'>
         <img src={images.phone} alt="mobile"/>
-        <a href='tel: +1 (331)-226-3577'>+1 (331)-226-3577</a>
+        <a href='tel: +1 (331)-701-1681'>+1 (331)-701-1681</a>
       </div>
     </div>
 
