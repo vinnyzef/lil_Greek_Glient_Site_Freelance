@@ -86,7 +86,7 @@ const Catering = () => {
       <div
       className='app__footer-card'>
         <img src={images.phone} alt="mobile"/>
-        <a href='tel: +1(331)-226-3577'>+1(331)-226-3577</a>
+        <a href='tel: +1(630)-677-4147'>+1(630)-677-4147</a>
       </div>
     </div>
 
