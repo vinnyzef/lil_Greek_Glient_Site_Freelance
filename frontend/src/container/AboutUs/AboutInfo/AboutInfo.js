@@ -15,7 +15,7 @@ const AboutInfo = () => {
 
 
             <p>
-               Lil' Greek Kitchen is a locally owned and operated restaraunt that bring delicious, tasty Greek Cuisine to the Chicagoland area.{" "}
+               Lil' Greek Kitchen is a locally owned and operated restaurant that bring delicious, tasty Greek Cuisine to the Chicagoland area.{" "}
               We pride ourselves on bringing the best food to you each and every time that you order.
               Chicago has been in need for some authentic and enticing Greek Cuisine and that is exactly what we are here to do! So next time you consider ordering takeout 
               or delivery, make the right decision and order 

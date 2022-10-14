@@ -40,7 +40,7 @@ const Footer = () => {
         Pickup & Delivery Hours
         </h3>
         <p>
-        Monday - Thursday: 11 am - 9 pm
+        Monday - Thursday: 11 am - 10 pm
         <p>
         Friday - Saturday: 11 am - 10 pm
         </p>
