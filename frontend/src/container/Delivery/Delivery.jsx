@@ -11,14 +11,17 @@ const Delivery = () => {
       <div className='delivery__header'>
     <h1>THIRD PARTY ORDERING</h1>
 
-    <p>We will soon be available on Doordash as well for pick-up and delivery.
+    <p>We are now available for third party pick-up and delivery.
  
     </p>
     </div>
     <div className='thirdparty__links'>
     <div className='button_1'>
     <img src={images.doordash} alt="doordashimg"/>
-    <button>COMING SOON</button>
+    <a href='https://www.doordash.com/store/lil-greek-kitchen-chicago-24103822/'>
+    <button>ORDER NOW</button>
+    </a>
+
     </div>
     <div className='button_2'>
     <img src={images.ubereats} alt="ubereatsimg"/>

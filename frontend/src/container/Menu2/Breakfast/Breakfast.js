@@ -7,12 +7,12 @@ import images from "../../../constants/images";
 const menuDataLeft = [
   {
     title: "Fries",
-    description: `with Greek sea salt`,
+    description: `Fresh home cut fries with Greek sea salt`,
     price: "5.55",
   },
   {
     title: "Greek Fries",
-    description: `Oregano, splash of Greek dressing, feta, Garlic salt, and squeeze of lemon`,
+    description: `Fresh home cut fries with Oregano, splash of Greek dressing, feta, Garlic salt, and squeeze of lemon`,
     price: "5.95",
   },
   // {
@@ -21,9 +21,9 @@ const menuDataLeft = [
   //   price: "5.95",
   // },
   {
-    title: "Hot Sides",
+    title: "Hot Side",
     description: `Green beans, Greek Potato’s, Greek Lemon Rice, or Freshly Baked Carrots`,
-    price: "3.95/5.95",
+    price: "5.95",
   },
   {
     title: "Greek Salad",

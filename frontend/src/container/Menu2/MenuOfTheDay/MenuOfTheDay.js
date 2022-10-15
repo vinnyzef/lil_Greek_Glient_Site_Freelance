@@ -6,14 +6,18 @@ import images from "../../../constants/images";
 const menuData = [
   {
     title: "Greek Gyro",
-    description: "fries, tzatziki, tomato, onion, and our fresh choice of protein in a 6-inch pita",
-    price: 10.55,
+    description: "fries, tomato, onion, and our fresh choice of protein in a warm pita and a side of our tzatziki and hummus sauces",
+    price: 10.25,
   },
   {
     title: "Gyro Bowl",
-    description: `B.Y.0 Bowl with our homemade Greek lemon rice or fresh greens, choice of protein, Greek salad, feta,
-    fries, Kalamata olives, Warm pitas, and two sauces`,
+    description: `B.Y.0 Bowl with our homemade Greek lemon rice or fresh greens, choice of protein, Greek salad, feta, Kalamata olives, Warm pitas, and choice of sauces`,
     price: 13.55,
+  },
+  {
+    title: "Gyro Fry Bowl",
+    description: `Our Fresh cut fry's mixed with gyro, drizzled with tzatziki and sprinkled with feta and our fresh seasonings to top it off`,
+    price: 9.55,
   },
 ];
 

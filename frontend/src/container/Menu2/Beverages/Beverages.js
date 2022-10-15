@@ -1,16 +1,15 @@
 import React from "react";
 import "./Beverages.css";
 import ListItem from "../../../components/ListItem/ListItem";
-import images from "../../../constants/images";
 
 const menuDataLeft = [
   {
     title: "Pepsi",
-    price: 2.25,
+    price: 2,
   },
   {
     title: "Diet Pepsi",
-    price: 2.25,
+    price: 2,
   },
 
 
@@ -19,11 +18,11 @@ const menuDataLeft = [
 const menuDataMiddle = [
   {
     title: "Mountain Dew",
-    price: 2.25,
+    price: 2,
   },
    {
     title: "Sprite",
-    price: 2.25,
+    price: 2,
   },
 ];
 
@@ -31,7 +30,7 @@ const menuDataRight = [
 
   {
     title: "Bottled Water",
-    price: 2.00,
+    price: 2,
   },
  
 

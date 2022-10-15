@@ -21,30 +21,29 @@ const menuDataRight = [
   {
     title: "Greek Pita",
     description: `B.Y.O Pita, Choice of one homemade sauce and three cold toppings (Protein options- gr.
-      Chicken, Gyro, Falafel`,
+      Chicken, Gyro, Falafel, or Gyro Chicken`,
     price: 9.55,
   },
   {
     title: "Gyro Bowl",
-    description: `B.Y.0 Bowl with our homemade Greek lemon rice or fresh greens, choice of protein, Greek salad, feta,
-    fries, Kalamata olives, Warm pitas, and two sauces`,
+    description: `B.Y.0 Bowl with our homemade Greek lemon rice or fresh greens, choice of protein, Greek salad, feta, Kalamata olives, Warm pitas, and choice of sauces`,
     price: 13.55,
   },
   {
     title: " Gyro Plate",
     description: `Plate with our homemade Greek rice or fresh greens, choice of protein, Greek salad, feta,
-    fries, olives, Warm pitas, and two sauces`,
+    fries, olives, Warm pitas, and choice of sauces`,
     price: 15.55,
   },
   {
     title: "Toppings",
-    description: `Kalamata olives, tomato, cucumber, onion, banana peppers, garbanzo, red peppers, feta, spicy feta
+    description: `Kalamata olives, tomato, cucumber, Giardiniera, onion, banana peppers, garbanzo, red peppers, feta, spicy feta
     .55cents an extra topping`,
-    price: .55,
+    price: .30,
   },
   {
     title: "Seasonings",
-    description: `Oregano, pepper, Greek salt, parsley, rosemary and garlic salt`,
+    description: `Oregano, pepper, Greek salt, parsley, rosemary and garlic salt, Lil Greek Seasoning, red pepper flakes`,
     price: 0,
   },
 

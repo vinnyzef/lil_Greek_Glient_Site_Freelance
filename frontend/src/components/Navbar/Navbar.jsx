@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className='nav__hours'>
               <h3>Lil Greek Kitchen</h3>
               <p>Monday - Thursday: 11 am - 10 pm</p>
-              <p>Friday - Saturday: 11 am - 10 pm</p>
+              <p>Friday - Saturday: 11 am - 11 pm</p>
               <p>Sunday: Closed</p>
          
             </div>

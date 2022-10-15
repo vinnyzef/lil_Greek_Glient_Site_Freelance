@@ -15,10 +15,11 @@ const menuDataLeft = [
         img:null,
         },
         {
-            title: "Two choices of protein (Gyro, Grilled chicken, Falafel,) or Steak for an extra +$1.95 per person",
+            title: "Two choices of protein (Gyro, Chicken Gyro, Grilled chicken, Falafel,) or Steak for an extra +$1.95 per person",
             description: "",
             img:null,
             },
+
          
  
 ];
@@ -37,7 +38,7 @@ const menuDataRight = [
             img:null,
             },
             {
-              title: "Pitas Included",
+              title: "*Utensils & Pitas Included*",
               description: "",
               img:null,
               },
