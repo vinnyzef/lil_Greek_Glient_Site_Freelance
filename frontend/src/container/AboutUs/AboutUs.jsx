@@ -14,7 +14,7 @@ const AboutUs = () => {
       link rel='canonical' href='/about'/>
       </Helmet>
       <HeroImage
-        bgImage={images.falafel}
+        bgImage={images.plate2}
         heading={[<span>locally owned</span>]}
         text=""
       />

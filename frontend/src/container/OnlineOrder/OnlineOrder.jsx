@@ -7,7 +7,7 @@ const OnlineOrder = () => {
 
     <div id="portfolio">
     <div className="background">
-    <img src={images.bowl} alt="" />
+    <img src={images.burger} alt="" />
   </div>
   <div className="content">
   <h1>ORDER <span>DIRECTLY</span> THROUGH US</h1>

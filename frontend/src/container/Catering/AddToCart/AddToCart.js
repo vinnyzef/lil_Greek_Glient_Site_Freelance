@@ -23,6 +23,12 @@ const menuDataLeft = [
     img:null,
   },  
   {
+    title: "Tray of Chicken Gyro",
+    description: "",
+    price: 56.55,
+    img:null,
+  }, 
+  {
     title: "Tray of Greek Potatoes",
     description: "",
     price: 56.55,
@@ -60,6 +66,18 @@ const menuDataLeft = [
       price: 21.55,
       img:null,
       },
+      {
+        title: "Tray of Mixed Greens",
+        description: "",
+        price: 14.95,
+        img:null,
+        },
+      {
+        title: "Tray of Sauce (your choice of sauce)",
+        description: "",
+        price: 9.95,
+        img:null,
+        },
   {
     title: "Tray of Baklava",
     description: "",
@@ -96,7 +114,7 @@ const menuDataRight = [
   {
     title: "Case of Canned Beverages (x25)",
     description: "",
-    price: 30,
+    price: 25,
     img:null,
   },
 

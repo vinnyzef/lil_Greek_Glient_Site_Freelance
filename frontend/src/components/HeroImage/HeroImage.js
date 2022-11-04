@@ -8,6 +8,7 @@ const HeroImage = (props) => {
       style={{
         background: `url(${props.bgImage}) no-repeat bottom center/cover`,
         height: "60vh"
+        
       }}
     >
         <div className="banner-content">

@@ -10,7 +10,7 @@ import ListItem from "../../../components/ListItem/ListItem";
 const menuDataRight = [
   {
     title: "Greek Gyro",
-    description: "Fries, tzatziki, tomato, onion, and our fresh choice of protein in a pita",
+    description: "Fries, tzatziki, tomato, onion",
     price: 10.55,
   },
   {

@@ -19,7 +19,7 @@ const Order = () => {
     {/* onClick={()=>window.scroll(0,0)} */}
     <a href='https://www.lilgreekonline.com/s/order'>  <button className='menu__button'  > ORDER NOW </button></a>
     </div>
-    <img src={images.Spanakopita} alt="falafel"/>
+    <img src={images.burger} alt="falafel"/>
     </div>
     </div>
   )

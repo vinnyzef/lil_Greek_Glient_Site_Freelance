@@ -15,7 +15,7 @@ const Menu = () => {
       className="menu__text2"
         >
         <div className='meu__head'>
-     <img src={images.falafel} alt="falafel"/>
+     <img src={images.chickenBreast} alt="falafel"/>
     </div>
 
     <div className='menu__body'>

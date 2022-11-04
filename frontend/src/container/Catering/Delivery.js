@@ -52,7 +52,7 @@ const Catering = () => {
       link rel='canonical' href='/catering'/>
       </Helmet>
       <HeroImage
-        bgImage={images.Spanakopita}
+        bgImage={images.chickenBreast}
         heading={["", <span>Catering</span>]}
         text="Delivery avialable Mon – Fri, 10am – 16pm"
       />

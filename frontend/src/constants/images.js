@@ -14,9 +14,19 @@ import cater2 from '../assets/cater2.jpg'
 import gyro from '../assets/gyro.png'
 import Spanakopita from '../assets/Spanakopita.jpg'
 import delivery from '../assets/icons8-delivery-50.png'
+import burger from '../assets/burger.jpg'
+import gyroDisplay from '../assets/gyroDisplay.jpg'
+import fry2 from '../assets/fry2.jpg'
+import plate2 from '../assets/plate2.jpg'
+import chickenBreast from '../assets/chickenBreast.JPG'
 export default{
 lilgreeklogo,
 skepasti,
+gyroDisplay,
+burger,
+chickenBreast,
+fry2,
+plate2,
 hummus,
 falafel,
 cater,
