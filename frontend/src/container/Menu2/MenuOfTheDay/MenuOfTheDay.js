@@ -21,6 +21,9 @@ const menuData = [
   },
 ];
 
+
+
+
 const MenuOfTheDay = () => {
   return (
     <div className="section">
