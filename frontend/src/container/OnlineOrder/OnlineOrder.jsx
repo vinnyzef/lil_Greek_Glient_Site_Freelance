@@ -14,7 +14,7 @@ const OnlineOrder = () => {
     <h2>
     Click the link below to be sent to our online ordering page.
     </h2>
-   <a href='https://www.lilgreekonline.com/s/order'><button>ORDER NOW</button></a> 
+   <a href='https://order.online/store/lil-greek-kitchen-chicago-24103822/?hideModal=true&pickup=true'><button>ORDER NOW</button></a> 
   </div>
   </div>
   )

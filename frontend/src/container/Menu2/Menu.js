@@ -17,7 +17,7 @@ const Menu2 = () => {
       link rel='canonical' href='/menu'/>
       </Helmet>
       <HeroImage
-        bgImage={images.plate2}
+        bgImage={images.menu}
         heading={[<span>OUR Menu</span>]}
         text=""
       />

@@ -58,7 +58,7 @@ const CoffeeSelection = () => {
 
       <div className="grid-container">
         <div>
-          <img src={images.gyro}alt="coffee items" />
+          <img src={images.threePitas}alt="greek gyro pitas" />
         </div>
 
         <div>

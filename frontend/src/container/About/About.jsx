@@ -24,7 +24,7 @@ go about catering, as well as a party plan that will be sure have your mouth wat
     <button>I WANT CATERING</button>
     </Link>
     </div>
-    <img src={images.hummus} alt='skepasti'/>
+    <img src={images.cateringShot} alt='cateringDisplay'/>
     </div>
 
 
