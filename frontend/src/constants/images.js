@@ -1,4 +1,4 @@
-import lilgreeklogo from '../assets/lilgreeklogo.JPEG'
+import lilgreeklogo from '../assets/lilgreeklogo.jpg'
 import ubereats from '../assets/ubereats.png'
 import doordash from '../assets/doordash.png'
 import grubhub from '../assets/grubhub.png'
@@ -18,6 +18,7 @@ import threePitas from '../assets/threePitas.jpg'
 import pitaShot from '../assets/pitaShot.jpg'
 import gyroBowl from '../assets/gyroBowl.jpg'
 import local from '../assets/local.jpg'
+import bak from '../assets/bak.jpeg'
 
 
 
@@ -41,5 +42,6 @@ phone,
  threePitas,
  pitaShot,
  gyroBowl,
- local
+ local,
+ bak
 }

@@ -76,15 +76,14 @@
 
         }
         //mobile
-        @media screen and(max-width:450px) {
-
+        @media screen and (max-width:450px) {
             width: 100%;
         }
-    }
-    @media screen and(max-width:768px) {
+     }
+    //   @media screen and (max-width:768px) {
 
-        width: 100%;
-    }
+    //     width: 100%;
+    // }
 
 }
 .app__footer-cards .app__footer-card:last-child{
@@ -148,7 +147,7 @@
             box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
         }
     }
-    @media screen and(max-width:768px) {
+    @media screen and (max-width:768px) {
 
         width: 100%;
         margin: 1rem 0;

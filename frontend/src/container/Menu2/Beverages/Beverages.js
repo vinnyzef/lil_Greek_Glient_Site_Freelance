@@ -5,11 +5,11 @@ import ListItem from "../../../components/ListItem/ListItem";
 const menuDataLeft = [
   {
     title: "Pepsi",
-    price: 2,
+    price: 1.5,
   },
   {
     title: "Diet Pepsi",
-    price: 2,
+    price: 1.5,
   },
 
 
@@ -18,11 +18,11 @@ const menuDataLeft = [
 const menuDataMiddle = [
   {
     title: "Mountain Dew",
-    price: 2,
+    price: 1.5,
   },
    {
     title: "Sprite",
-    price: 2,
+    price: 1.5,
   },
 ];
 
@@ -30,7 +30,7 @@ const menuDataRight = [
 
   {
     title: "Bottled Water",
-    price: 2,
+    price: 1.5,
   },
  
 

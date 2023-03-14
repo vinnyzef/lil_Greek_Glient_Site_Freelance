@@ -5,19 +5,19 @@ import images from "../../../constants/images";
 
 const menuData = [
   {
-    title: "Greek Gyro",
-    description: "fries, tomato, onion, and our fresh choice of protein in a warm pita and a side of our tzatziki and hummus sauces",
-    price: 10.55,
+    title: "B.Y.O Bowl",
+    description: ` Our B.Y.0 Bowl  comes with your choice of base, choice of protein(Gyro off the spit, Chicken gyro, Greek Grilled chicken, or falafel), toppings, sauces, and seasonings.  Our B.Y.O. Bowl also comes with a Greek salad on the side,  a Warm 7 inch pita,  and a side of our homemade tzatziki.`,
+    price: 13.5,
   },
   {
-    title: "Gyro Bowl",
-    description: `B.Y.0 Bowl with our homemade Greek lemon rice or fresh greens, choice of protein, Greek salad, feta, Kalamata olives, Warm pita, and choice of sauces`,
-    price: 13.55,
+    title: "B.Y.O Pita",
+    description: "Build your own pita- Comes in a 7 inch warm pita with your choice of protein, (Gyro cut off the spit, Fresh chicken gyro cut off the spit, Greek Grilled Chicken, or Falafel,) pick your cold toppings and sauce also.",
+    price: 14,
   },
   {
-    title: "Gyro Fry Bowl",
-    description: `Our Fresh cut fry's mixed with gyro, drizzled with tzatziki and sprinkled with feta and our fresh seasonings to top it off`,
-    price: 9.55,
+    title: "The Gyro Plate",
+    description: `Our Gyro Plate comes with your choice of base,  our delicious Gyro cut right off the spit,  a side of our Home Cut Fries, Feta, Kalamata olives, Greek salad, a warm 7 inch pita and a side of Tzatziki`,
+    price: 16.5,
   },
 ];
 

@@ -4,9 +4,11 @@ import images from "../../constants/images";
 import MenuOfTheDay from "./MenuOfTheDay/MenuOfTheDay";
 import Breakfast from './Breakfast/Breakfast'
 import CoffeeSelection from './CoffeeSelection/CoffeeSelection'
+import Starters from "./Starters/Starters";
 import Beverages from './Beverages/Beverages'
 import { Helmet } from "react-helmet-async";
 import './Menu.scss'
+import Bowls from "./Bowls/Bowls";
 
 const Menu2 = () => {
   return (
@@ -26,8 +28,10 @@ const Menu2 = () => {
             <p className="text-white"></p>
         </div> */}
       <MenuOfTheDay />
-      <CoffeeSelection />
       <Breakfast />
+      <CoffeeSelection />
+      <Bowls/>
+      <Starters /> 
       <Beverages />
     </div>
   );

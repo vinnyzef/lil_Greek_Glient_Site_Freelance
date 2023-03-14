@@ -20,7 +20,7 @@ const Header = () => {
 
 
             <div className='intro__container'>
-
+            <link rel='preload' href='../../assets/multiplePita.jpg' as="image"/>
             <h1 className='intro__text head-text'><span>WELCOME</span> TO LIL GREEK KITCHEN<span>.</span>
             </h1>
             </div>

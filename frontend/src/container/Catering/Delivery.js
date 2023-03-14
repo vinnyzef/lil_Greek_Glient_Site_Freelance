@@ -77,11 +77,11 @@ const Catering = () => {
       </div>
       <div className='app__footer-card'>   
        <img src={images.delivery} alt="email"/>
-           <a className="ezcater__link" href="https://www.ezcater.com/catering/pvt/lil-greek-kitchen-3">ez cater online catering </a>
+           <a className="ezcater__link" href="https://www.ezcater.com/catering/pvt/lil-greek-kitchen-3">www.ezcater.com</a>
          </div>
          <div className='app__footer-card'>   
        <img src={images.delivery} alt="email"/>
-           <a className="ezcater__link" href="https://www.lilgreekonline.com/s/order">lilgreekonline.com catering</a>
+           <a className="ezcater__link" href="https://www.lilgreekonline.com/s/order">lilgreekonline.com</a>
          </div>
       <div
       className='app__footer-card'>
